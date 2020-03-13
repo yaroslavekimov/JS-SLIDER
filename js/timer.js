@@ -2,7 +2,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
     ' use strict ';
 
-    let deadline = '2020-03-12';   // Конец таймера
+    let deadline = '2020-03-14';   // Конец таймера
 
     function getTimeRemaining(endTime) {
         let t = Date.parse(endTime) - Date.parse(new Date()), // Разница между текущей датой и конечной
